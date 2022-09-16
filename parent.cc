@@ -7,7 +7,7 @@ int main(int argc, char **argv){
 	pid_t cpid;
 	int children = argc / 2;
 
-	
+	cout << "here";
 	cout << "I have " << children << "children\n";
 	for (int i = 0; i < children; i+= 2){
 		cout << "itertation: " << i << "\n";
