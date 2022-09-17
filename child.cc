@@ -3,6 +3,6 @@
 using namespace std;
 
 int main(int argc, char** argv){
-	cout << "\nChild # " << argv[0] <<": I am a " << argv[1] << ", and my name is " << argv[2]<< "\n"; 
-
+	cout << "\nChild # " << argv[0] <<": I am a " << argv[1] << ", and my name is " << argv[2]<< ".\n"; 
+	return 0;
 }
